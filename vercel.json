@@ -3,7 +3,6 @@
   "buildCommand": "npm install --legacy-peer-deps && npm run build -w packages/core && npm run build -w packages/player && npm run build -w packages/renderer && npm run build -w packages/studio",
   "outputDirectory": "packages/studio/dist",
   "framework": null,
-  "installCommand": "echo 'skip'",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
